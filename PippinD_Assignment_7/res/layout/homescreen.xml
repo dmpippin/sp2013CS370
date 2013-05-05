@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/configurebutton"
+            android:layout_width="match_parent"
+            android:layout_gravity="left"
+            android:text="Configure Preferences" />
+
+        <Space
+            android:layout_width="242dp"
+            android:layout_height="15dp"
+            android:layout_column="1" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/retrievebutton"
+            android:layout_width="match_parent"
+            android:layout_gravity="left"
+            android:minHeight="48dip"
+            android:text="Retrieve Assignment List From Server" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/managebutton"
+            android:layout_width="match_parent"
+            android:layout_gravity="left"
+            android:text="Manage Assignments"/>
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/frogswallpapers" />
+
+</LinearLayout>
